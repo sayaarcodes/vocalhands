@@ -13,7 +13,7 @@ I created VocalHands to address a critical communication gap: individuals who ar
 ## Repository Structure
 
 ```
-VocalHands/
+vocalhands/
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -44,8 +44,8 @@ VocalHands/
 
 1. **Clone this repository**
    ```
-   git clone https://github.com/your-username/VocalHands.git
-   cd VocalHands
+   git clone https://github.com/sayaarcodes/vocalhands.git
+   cd vocalhands
    ```
 
 2. **Create a virtual environment (recommended)**
@@ -90,7 +90,7 @@ The `train/train.py` script defines and trains an ASL classifier based on Effici
    In `train/train.py`, adjust:
    ```python
    TRAIN_DIR = '/path/to/sl_dataset'
-   SAVE_DIR = '/path/to/VocalHands/src'  # Where trained models and labels will be saved
+   SAVE_DIR = '/path/to/vocalhands/src'  # Where trained models and labels will be saved
    ```
    or use relative paths:
    ```python
@@ -194,4 +194,4 @@ The `train/train.py` script defines and trains an ASL classifier based on Effici
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+This project is released under the GNU GENERAL PUBLIC License. See [LICENSE](LICENSE) for details.
