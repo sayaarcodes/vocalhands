@@ -141,8 +141,6 @@ The `train/train.py` script defines and trains an ASL classifier based on Effici
 
 3. **Sign letters/words**  
    - Hold up ASL letters (A–Z).  
-   - To form a space, hold the **space** sign.  
-   - To delete the last character, hold the **del** sign.  
    - Once a letter is held steadily (≈20 frames), it appends to the current word.  
    - After you pause (≈3 seconds of no new signs), the full word is converted to speech automatically.
 
