@@ -69,6 +69,21 @@ vocalhands/
 
 ---
 
+## Dataset Maker
+
+Use `dataset_maker/collect.py` to record labeled hand images for each alphabet class.
+
+### Usage
+```bash
+python dataset_maker/collect.py
+```
+1. **Alphabet**: enter the target alphabet (e.g., `A`).
+2. **Images**: enter the number of images to collect.
+3. **Stabilization**: hold your hand steady — capture begins after ~60 stable frames.
+4. **Output**: images are saved to `dataset/<LETTER>/`.
+
+---
+
 ## Training
 
 The `train/train.py` script defines and trains an ASL classifier based on EfficientNetB2. Follow these steps to train your own model:
